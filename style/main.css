@@ -11,7 +11,7 @@
 /* Elementos base */
 body  {
 background-color: var(--preta);
-font-family: 'Times New Roman', Times, serif;
+font-family: Arial, Times, serif;
 color: white;
 }
 
@@ -29,6 +29,8 @@ header .logo{
     font-size: 40px;
 
 }
+
+
 
 header  nav a{
     text-decoration: none;
@@ -55,7 +57,10 @@ header nav a:hover{
 
 .filme-principal .descricao{
     margin-top: 10px;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
+    justify-content: center;
+
+
 }
 
 .titulo{
@@ -69,9 +74,9 @@ header nav a:hover{
     border: none;
     color: white;
 
-    padding: 15px 30px; /* Espaço iterno */
-    margin-right: 15px;
-    font-size: 12px;
+    padding: 10px 8px; /* Espaço iterno */
+    margin-right: 1px;
+    font-size: 11px;
 
     cursor: pointer;
     transition: .4s ease all;
@@ -83,7 +88,7 @@ header nav a:hover{
 }
 
 .botao i{
-    margin-right: 10px;
+    margin-right: 5px;
   
 }
 
@@ -95,4 +100,15 @@ header nav a:hover{
 .filme-principal .container{
     margin-top: 20%;
     width: 70%; /* DELIMITA O ESPAÇAMENTO DO CONTAINER */
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
 }
